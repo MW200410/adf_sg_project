@@ -1,0 +1,11 @@
+{
+	"name": "AzureBlobStorage_ls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://adfspartastorage2023.blob.core.windows.net/",
+			"accountKind": "StorageV2"
+		}
+	}
+}
