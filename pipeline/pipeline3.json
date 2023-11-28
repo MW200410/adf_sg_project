@@ -53,12 +53,12 @@
 								"source": {
 									"name": "disc_year",
 									"type": "DateTime",
-									"physicalType": "String"
+									"physicalType": "DateTime"
 								},
 								"sink": {
 									"name": "disc_year",
 									"type": "DateTime",
-									"physicalType": "Date"
+									"physicalType": "DateTime"
 								}
 							},
 							{
