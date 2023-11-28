@@ -7,7 +7,56 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
+		"schema": [
+			{
+				"name": "pl_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "disc_year",
+				"type": "nvarchar"
+			},
+			{
+				"name": "disc_facility",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pl_controv_flag",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pl_orbper",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pl_orbsmax",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pl_rade",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pl_bmasse",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pl_orbeccen",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pl_eqt",
+				"type": "nvarchar"
+			},
+			{
+				"name": "sy_dist",
+				"type": "nvarchar"
+			},
+			{
+				"name": "st_lum",
+				"type": "nvarchar"
+			}
+		],
 		"typeProperties": {
 			"schema": "dbo",
 			"table": "PlanetsTest"

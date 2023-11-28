@@ -77,7 +77,7 @@
 								"source": {
 									"name": "pl_controv_flag",
 									"type": "Int32",
-									"physicalType": "String"
+									"physicalType": "Int32"
 								},
 								"sink": {
 									"name": "pl_controv_flag",
@@ -89,7 +89,7 @@
 								"source": {
 									"name": "pl_orbper",
 									"type": "Decimal",
-									"physicalType": "String"
+									"physicalType": "Decimal"
 								},
 								"sink": {
 									"name": "pl_orbper",
