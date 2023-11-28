@@ -45,8 +45,8 @@
 								},
 								"sink": {
 									"name": "pl_name",
-									"type": "String",
-									"physicalType": "String"
+									"type": "varchar",
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -57,8 +57,8 @@
 								},
 								"sink": {
 									"name": "disc_year",
-									"type": "String",
-									"physicalType": "String"
+									"type": "DateTime",
+									"physicalType": "DateTime"
 								}
 							},
 							{
@@ -69,8 +69,8 @@
 								},
 								"sink": {
 									"name": "disc_facility",
-									"type": "String",
-									"physicalType": "String"
+									"type": "varchar",
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -81,8 +81,8 @@
 								},
 								"sink": {
 									"name": "pl_controv_flag",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Int32",
+									"physicalType": "Int32"
 								}
 							},
 							{
@@ -93,8 +93,8 @@
 								},
 								"sink": {
 									"name": "pl_orbper",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Decimal",
+									"physicalType": "Decimal"
 								}
 							},
 							{
@@ -105,8 +105,8 @@
 								},
 								"sink": {
 									"name": "pl_orbsmax",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Decimal",
+									"physicalType": "Decimal"
 								}
 							},
 							{
@@ -117,8 +117,8 @@
 								},
 								"sink": {
 									"name": "pl_rade",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Decimal",
+									"physicalType": "Decimal"
 								}
 							},
 							{
@@ -129,8 +129,8 @@
 								},
 								"sink": {
 									"name": "pl_bmasse",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Decimal",
+									"physicalType": "Decimal"
 								}
 							},
 							{
@@ -141,8 +141,8 @@
 								},
 								"sink": {
 									"name": "pl_orbeccen",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Decimal",
+									"physicalType": "Decimal"
 								}
 							},
 							{
@@ -153,8 +153,8 @@
 								},
 								"sink": {
 									"name": "pl_eqt",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Decimal",
+									"physicalType": "Decimal"
 								}
 							},
 							{
@@ -165,8 +165,8 @@
 								},
 								"sink": {
 									"name": "sy_dist",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Decimal",
+									"physicalType": "Decimal"
 								}
 							},
 							{
@@ -177,8 +177,8 @@
 								},
 								"sink": {
 									"name": "st_lum",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Decimal",
+									"physicalType": "Decimal"
 								}
 							}
 						],
