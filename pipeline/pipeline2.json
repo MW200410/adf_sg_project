@@ -34,6 +34,152 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "pl_name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_name",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "disc_year",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "disc_year",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "disc_facility",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "disc_facility",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_controv_flag",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_controv_flag",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_orbper",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_orbper",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_orbsmax",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_orbsmax",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_rade",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_rade",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_bmasse",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_bmasse",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_orbeccen",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_orbeccen",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_eqt",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_eqt",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "sy_dist",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "sy_dist",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "st_lum",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "st_lum",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
