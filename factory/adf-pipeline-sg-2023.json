@@ -1,0 +1,9 @@
+{
+	"name": "adf-pipeline-sg-2023",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d7a44757-6c13-4033-94dd-e4d1e224dba0",
+		"tenantId": "d295fcf4-240c-4b14-aa3d-25e7bda96066"
+	}
+}
