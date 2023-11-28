@@ -52,7 +52,7 @@
 							{
 								"source": {
 									"name": "disc_year",
-									"type": "String",
+									"type": "Date",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -76,7 +76,7 @@
 							{
 								"source": {
 									"name": "pl_controv_flag",
-									"type": "String",
+									"type": "Int32",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -88,7 +88,7 @@
 							{
 								"source": {
 									"name": "pl_orbper",
-									"type": "String",
+									"type": "Decimal",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -100,7 +100,7 @@
 							{
 								"source": {
 									"name": "pl_orbsmax",
-									"type": "String",
+									"type": "Decimal",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -112,7 +112,7 @@
 							{
 								"source": {
 									"name": "pl_rade",
-									"type": "String",
+									"type": "Decimal",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -124,7 +124,7 @@
 							{
 								"source": {
 									"name": "pl_bmasse",
-									"type": "String",
+									"type": "Decimal",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -136,7 +136,7 @@
 							{
 								"source": {
 									"name": "pl_orbeccen",
-									"type": "String",
+									"type": "Decimal",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -148,7 +148,7 @@
 							{
 								"source": {
 									"name": "pl_eqt",
-									"type": "String",
+									"type": "Decimal",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -160,7 +160,7 @@
 							{
 								"source": {
 									"name": "sy_dist",
-									"type": "String",
+									"type": "Decimal",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -172,7 +172,7 @@
 							{
 								"source": {
 									"name": "st_lum",
-									"type": "String",
+									"type": "Decimal",
 									"physicalType": "String"
 								},
 								"sink": {
