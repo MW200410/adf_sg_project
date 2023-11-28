@@ -1,0 +1,208 @@
+{
+	"name": "pipeline3",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy data1",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "AzureBlobStorageReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"sink": {
+						"type": "AzureSqlSink",
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false,
+						"tableOption": "autoCreate",
+						"disableMetricsCollection": false
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "pl_name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_name",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "disc_year",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "disc_year",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "disc_facility",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "disc_facility",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_controv_flag",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_controv_flag",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_orbper",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_orbper",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_orbsmax",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_orbsmax",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_rade",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_rade",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_bmasse",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_bmasse",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_orbeccen",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_orbeccen",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "pl_eqt",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pl_eqt",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "sy_dist",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "sy_dist",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "st_lum",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "st_lum",
+									"type": "String",
+									"physicalType": "String"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "planets_csv_dataset",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureSql_PlanetsTable",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		],
+		"annotations": []
+	}
+}
