@@ -52,12 +52,12 @@
 							{
 								"source": {
 									"name": "disc_year",
-									"type": "Date",
+									"type": "DateTime",
 									"physicalType": "String"
 								},
 								"sink": {
 									"name": "disc_year",
-									"type": "Date",
+									"type": "DateTime",
 									"physicalType": "Date"
 								}
 							},
@@ -185,7 +185,8 @@
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
-							"treatBooleanAsNumber": false
+							"treatBooleanAsNumber": false,
+							"dateFormat": "yyyy"
 						}
 					}
 				},
