@@ -1,0 +1,65 @@
+{
+	"name": "AzureSql_Table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "pl_name",
+				"type": "varchar"
+			},
+			{
+				"name": "disc_year",
+				"type": "varchar"
+			},
+			{
+				"name": "disc_facility",
+				"type": "varchar"
+			},
+			{
+				"name": "pl_controv_flag",
+				"type": "varchar"
+			},
+			{
+				"name": "pl_orbper",
+				"type": "varchar"
+			},
+			{
+				"name": "pl_orbsmax",
+				"type": "varchar"
+			},
+			{
+				"name": "pl_rade",
+				"type": "varchar"
+			},
+			{
+				"name": "pl_bmasse",
+				"type": "varchar"
+			},
+			{
+				"name": "pl_orbeccen",
+				"type": "varchar"
+			},
+			{
+				"name": "pl_eqt",
+				"type": "varchar"
+			},
+			{
+				"name": "sy_dist",
+				"type": "varchar"
+			},
+			{
+				"name": "st_lum",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "planets_database",
+			"table": "exo"
+		}
+	}
+}
