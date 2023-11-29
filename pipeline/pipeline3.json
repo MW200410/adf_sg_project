@@ -52,8 +52,8 @@
 							{
 								"source": {
 									"name": "disc_year",
-									"type": "DateTime",
-									"physicalType": "DateTime"
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "disc_year",
