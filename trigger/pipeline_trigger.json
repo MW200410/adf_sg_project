@@ -1,0 +1,29 @@
+{
+	"name": "pipeline_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Week",
+				"interval": 1,
+				"startTime": "2023-11-29T23:34:00",
+				"timeZone": "GMT Standard Time",
+				"schedule": {
+					"weekDays": [
+						"Wednesday"
+					]
+				}
+			}
+		}
+	}
+}
