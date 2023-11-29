@@ -8,7 +8,7 @@
 		"annotations": [],
 		"type": "RestResource",
 		"typeProperties": {
-			"relativeUrl": "MW200410/adf_sg_project"
+			"relativeUrl": "MW200410/adf_sg_project/tree/feature_a"
 		},
 		"schema": []
 	}
