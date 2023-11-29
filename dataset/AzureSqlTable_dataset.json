@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "exo_planets_tbl"
+			"table": "exo_planets_tbl2"
 		}
 	}
 }
