@@ -52,13 +52,13 @@
 							{
 								"source": {
 									"name": "disc_year",
-									"type": "string",
-									"physicalType": "string"
+									"type": "DateTime",
+									"physicalType": "DateTime"
 								},
 								"sink": {
 									"name": "disc_year",
-									"type": "varchar",
-									"physicalType": "varchar"
+									"type": "DateTime",
+									"physicalType": "DateTime"
 								}
 							},
 							{
@@ -199,7 +199,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "AzureSqlTable_dataset",
 						"type": "DatasetReference"
 					}
 				]
