@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://github.com/MW200410/adf_sg_project",
+			"url": "https://github.com",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
