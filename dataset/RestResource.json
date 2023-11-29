@@ -7,6 +7,9 @@
 		},
 		"annotations": [],
 		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "MW200410/adf_sg_project"
+		},
 		"schema": []
 	}
 }
