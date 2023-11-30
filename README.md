@@ -24,7 +24,7 @@ EDA:
 
 Our group which we named Life On Mars, decided with the agreement of the project stakeholder to instead look at exoplanets and attempt to estimate the probability that life could exist on some of these planets. The team found a suitable data source at the NASA Exoplanet Archive and setup a TAP request to extract relevant features for our study. 
 
-<img width="840" alt="EDA" src="https://github.com/MW200410/adf_sg_project/readme data/Missing_Values">
+<img width="840" alt="EDA" src="https://github.com/MW200410/adf_sg_project/readme_data/Missing_Values">
 
 The dataset showed 25% missing values for two columns of interest, these were dropped leaving the dataset with still over 3700 confirmed exoplanets. We had data on the observatories that originally discovered the respective exoplanets, using feature engineering we generated the country and continent of discovery. 
 
