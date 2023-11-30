@@ -1,0 +1,17 @@
+{
+	"name": "Json_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}
