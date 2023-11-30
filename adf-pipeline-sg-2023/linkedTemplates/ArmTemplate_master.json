@@ -1,0 +1,70 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "Data Factory name",
+			"defaultValue": "adf-pipeline-sg-2023"
+		},
+		"AzureBlobStorage_ls_properties_typeProperties_serviceEndpoint": {
+			"type": "string",
+			"defaultValue": "https://adfspartastorage2023.blob.core.windows.net/"
+		},
+		"AzureKeyVault_ls_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://kvsparta.vault.azure.net/"
+		},
+		"AzureSqlDatabase_ls_properties_typeProperties_connectionString_secretName": {
+			"type": "string",
+			"defaultValue": "sqlconnect"
+		},
+		"HttpServer_ls_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,disc_year,disc_facility,pl_controv_flag,pl_orbper,pl_orbsmax,pl_rade,pl_bmasse,pl_orbeccen,pl_eqt,sy_dist,st_lum+from+pscomppars&format=json"
+		},
+		"containerUri": {
+			"type": "string",
+			"metadata": "URI to storage account containing linked ARM templates"
+		},
+		"containerSasToken": {
+			"type": "string",
+			"metadata": "Sas token to storage account containing linked ARM templates"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "adf-pipeline-sg-2023_ArmTemplate_0",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2018-02-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_0.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage_ls_properties_typeProperties_serviceEndpoint": {
+						"value": "[parameters('AzureBlobStorage_ls_properties_typeProperties_serviceEndpoint')]"
+					},
+					"AzureKeyVault_ls_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVault_ls_properties_typeProperties_baseUrl')]"
+					},
+					"HttpServer_ls_properties_typeProperties_url": {
+						"value": "[parameters('HttpServer_ls_properties_typeProperties_url')]"
+					},
+					"AzureSqlDatabase_ls_properties_typeProperties_connectionString_secretName": {
+						"value": "[parameters('AzureSqlDatabase_ls_properties_typeProperties_connectionString_secretName')]"
+					}
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}

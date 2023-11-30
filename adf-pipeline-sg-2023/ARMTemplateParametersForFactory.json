@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-pipeline-sg-2023"
+		},
+		"AzureBlobStorage_ls_properties_typeProperties_serviceEndpoint": {
+			"value": "https://adfspartastorage2023.blob.core.windows.net/"
+		},
+		"AzureKeyVault_ls_properties_typeProperties_baseUrl": {
+			"value": "https://kvsparta.vault.azure.net/"
+		},
+		"AzureSqlDatabase_ls_properties_typeProperties_connectionString_secretName": {
+			"value": "sqlconnect"
+		},
+		"HttpServer_ls_properties_typeProperties_url": {
+			"value": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,disc_year,disc_facility,pl_controv_flag,pl_orbper,pl_orbsmax,pl_rade,pl_bmasse,pl_orbeccen,pl_eqt,sy_dist,st_lum+from+pscomppars&format=json"
+		}
+	}
+}
