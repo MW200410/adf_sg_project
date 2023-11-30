@@ -42,6 +42,8 @@ We created Power BI dashboards to visualise the data in a more intuitive way. Un
 
 ### Project Presentation Overview
 
-<a href="https://testingcircle-my.sharepoint.com/:p:/r/personal/acarver_spartaglobal_com/_layouts/15/Doc.aspx?sourcedoc=%7BEE291F5D-499E-4813-AB24-AA39E06053A8%7D&file=Exoplanet%20Sparta%20Presentation.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&ct=1701336345131&wdOrigin=OFFICECOM-WEB.START.REC&cid=95d5db6e-9aca-4d55-aa7c-57296b057d51&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=73f14a25-3557-4a5f-93bd-69a36630ef9b"></a>
+<a href="https://testingcircle-my.sharepoint.com/:p:/r/personal/acarver_spartaglobal_com/Documents/Exoplanet%20Sparta%20Presentation.pptx?d=wee291f5d499e4813ab24aa39e06053a8&csf=1&web=1&e=RiApen"> View ppt</a>
+
+### Demo Video
 
 
