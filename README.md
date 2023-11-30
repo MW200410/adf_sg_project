@@ -14,11 +14,11 @@ c038644
 
 LaurenG123
 
-### Project Brief:
+# Project Brief:
 
 The aim of this project was to develop an Extract, Transform, Load (ETL) pipeline to process publicly available data regarding past and present potential alien contacts. The goal was to structure and analyse the data for further scientific and research purposes.
 
-## Project Summary:
+# Project Summary:
 
 ### EDA:
 
