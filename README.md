@@ -39,3 +39,9 @@ Via an initial TAP request the dataset was saved to cloud storage and transferre
 ### Dashboard Creation:
 
 We created Power BI dashboards to visualise the data in a more intuitive way. Unfortunately due to licencing issues we were not in a position to directly embed our Power BI visualisations directly to a webpage. We were also aware of the need to create something long-lasting of our work on this project. As this stage in the project a possible closure of our Azure account would result in the loss of interactivity of the dataset. Therefore we decided to create a new independent <a href="https://c038644.github.io/Life_On_Mars/"> Life On Mars website </a> which was hosted on <a href="https://github.com/c038644/Life_On_Mars/tree/main"> GitHub </a>. 
+
+### Project Presentation Overview
+
+<a href="https://testingcircle-my.sharepoint.com/:p:/r/personal/acarver_spartaglobal_com/_layouts/15/Doc.aspx?sourcedoc=%7BEE291F5D-499E-4813-AB24-AA39E06053A8%7D&file=Exoplanet%20Sparta%20Presentation.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&ct=1701336345131&wdOrigin=OFFICECOM-WEB.START.REC&cid=95d5db6e-9aca-4d55-aa7c-57296b057d51&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=73f14a25-3557-4a5f-93bd-69a36630ef9b"></a>
+
+
