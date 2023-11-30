@@ -22,7 +22,7 @@ Project Summary:
 
 EDA:
 
-Our group which we named Life On Mars, decided with the agreement of the project stakeholder to instead look at exoplanets and attempt to estimate the probability that life could exist on some of these planets. The team found a suitable data source at the <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PSCompPars/"> NASA Exoplanet Archive </a> and setup a TAP request to extract relevant features for our study. 
+Our group which we named Life On Mars, decided with the agreement of the project stakeholder to instead look at exoplanets and attempt to estimate the probability that life could exist on some of these planets. The team found a suitable data source at the <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PSCompPars"> NASA Exoplanet Archive </a> and setup a TAP request to extract relevant features for our study. 
 
 <img width="840" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/readme_data/Missing_Values.JPG">
 
