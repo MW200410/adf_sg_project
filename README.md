@@ -54,7 +54,7 @@ Several planets look to have suitable conditions to potentially harbour life:
 <img width="1200" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/readme_data/Optimal_Planets.JPG">
 ### Table 4: Dataframe showing the most promising exoplanets for the existence of life 
 
-The first exoplanet was discovered in only 1992 and as of 2023 there are only 5,550 confirmed discoveries. Given that the Milky Way contains 100 billion stars the number of exoplanets discovered is much less than a fraction of 1%. Despite this our basic analysis shows 9 plausible candidates for life on exoplanets. To put this another way 0.16% of the planets in our dataset could potentially support life. Calculating for the Milky Way, this gives 160 million planets that could possibly support life. Therefore, it seems highly likely that sophisticated life exists on many exoplanets.
+The first exoplanet was discovered in only 1992 and as of 2023 there are only 5,550 confirmed discoveries. Given that the Milky Way contains 100 billion stars the number of exoplanets discovered is much less than a fraction of 1%. Despite this our basic analysis shows 9 plausible candidates for life on exoplanets. To put this another way 0.16% of the planets in our dataset could potentially support life. Calculating for the Milky Way, this gives 160 million planets that could possibly support life. Therefore, it seems highly likely that sophisticated life exists on many exoplanets. Most likely they will be asking themselves the same question we ask ourselves here on Earth: “Are we alone?” 
 
 ## Project Presentation Overview
 
