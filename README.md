@@ -27,6 +27,7 @@ The aim of this project was to develop an Extract, Transform, Load (ETL) pipelin
 Our group which we named Life On Mars, decided with the agreement of the project stakeholder to instead look at exoplanets and attempt to estimate the probability that life could exist on some of these planets. The team found a suitable data source at the <a href="https://exoplanetarchive.ipac.caltech.edu/docs/data.html"> NASA Exoplanet Archive </a> and setup a TAP request to extract relevant features for our study. 
 
 <img width="600" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/readme_data/Missing_Values.JPG">
+Table 1: EDA Analysis of missing values in the dataset
 
 The dataset showed 25% missing values for two columns of interest, these were dropped leaving the dataset with still over 3700 confirmed exoplanets. We had data on the observatories that originally discovered the respective exoplanets, using feature engineering we generated the country and continent of discovery. 
 
@@ -41,12 +42,16 @@ Via an initial TAP request the dataset was saved to cloud storage and transferre
 We created Power BI dashboards to visualise the data in a more intuitive way. Unfortunately due to licencing issues we were not in a position to directly embed our Power BI visualisations directly to a webpage. We were also aware of the need to create something long-lasting of our work on this project. As this stage in the project a possible closure of our Azure account would result in the loss of interactivity of the dataset. Therefore we decided to create a new independent <a href="https://c038644.github.io/Life_On_Mars/"> Life On Mars website </a> which was hosted on <a href="https://github.com/c038644/Life_On_Mars/tree/main"> GitHub </a>. 
 
 <img width="1200" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/Dashboard%20PDFs/Main.jpg">
+Table 2: Life On Mars Power BI Dashboard
+<img width="1200" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/Dashboard%20PDFs/FacilityMap.pdf">
+Table 3: Location of Earth based observatories that have discovered exoplanets
 
 ### Key Findings:
 
 Several planets look to have suitable conditions to potentially harbour life: 
 
 <img width="1200" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/readme_data/Optimal_Planets.JPG">
+Table 4: Dataframe showing the most promising exoplanets for the existence of life 
 
 The first exoplanet was discovered in only 1992 and as of 2023 there are only 5,550 confirmed discoveries. Given that the Milky Way contains 100 billion stars the number of exoplanets discovered is much less than a fraction of 1%. Despite this our basic analysis shows 9 plausible candidates for life on exoplanets. To put this another way 0.16% of the planets in our dataset could potentially support life. Calculating for the Milky Way, this gives 160 million planets that could possibly support life. Therefore, it seems highly likely that sophisticated life exists on many exoplanets.
 
