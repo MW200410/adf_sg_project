@@ -41,6 +41,8 @@ Via an initial TAP request the dataset was saved to cloud storage and transferre
 We created Power BI dashboards to visualise the data in a more intuitive way. Unfortunately due to licencing issues we were not in a position to directly embed our Power BI visualisations directly to a webpage. We were also aware of the need to create something long-lasting of our work on this project. As this stage in the project a possible closure of our Azure account would result in the loss of interactivity of the dataset. Therefore we decided to create a new independent <a href="https://c038644.github.io/Life_On_Mars/"> Life On Mars website </a> which was hosted on <a href="https://github.com/c038644/Life_On_Mars/tree/main"> GitHub </a>. 
 
 ![Dashboard Example](Dashboard PDFs/Main.jpg)
+<img width="1200" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/Dashboard%20PDFs/Main.jpg">
+
 
 ### Key Findings:
 
