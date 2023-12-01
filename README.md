@@ -44,7 +44,7 @@ We created Power BI dashboards to visualise the data in a more intuitive way. Un
 
 Several planets look to have suitable conditions to potentially harbour life: 
 
-<img width="840" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/readme_data/Optimal_Planets.JPG">
+<img width="1200" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/readme_data/Optimal_Planets.JPG">
 
 ### Project Presentation Overview
 
