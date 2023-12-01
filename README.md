@@ -43,6 +43,7 @@ We created Power BI dashboards to visualise the data in a more intuitive way. Un
 
 <img width="1200" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/Dashboard%20PDFs/Main.jpg">
 Table 2: Life On Mars Power BI Dashboard
+
 <img width="1200" alt="EDA" src="https://github.com/MW200410/adf_sg_project/blob/main/Dashboard%20PDFs/FacilityMap.pdf">
 Table 3: Location of Earth based observatories that have discovered exoplanets
 
