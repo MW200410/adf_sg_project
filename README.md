@@ -62,8 +62,9 @@ The first exoplanet was discovered in only 1992 and as of 2023 there are only 5,
 
 ## Project Presentation Overview
 
-<a href="https://testingcircle-my.sharepoint.com/:p:/r/personal/acarver_spartaglobal_com/Documents/Exoplanet%20Sparta%20Presentation.pptx?d=wee291f5d499e4813ab24aa39e06053a8&csf=1&web=1&e=RiApen"> View ppt</a>
+<a href="https://testingcircle-my.sharepoint.com/:p:/r/personal/acarver_spartaglobal_com/Documents/Exoplanet%20Sparta%20Presentation.pptx?d=wee291f5d499e4813ab24aa39e06053a8&csf=1&web=1&e=RiApen"> View Powerpoint Presentation </a>
 
 # Demo Video
 
+<a href="https://drive.google.com/file/d/1DTb7xIacqo4IfKa3nQAUic8lP2gSiOiJ/view"> Watch Video </a>
 
