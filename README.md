@@ -66,5 +66,5 @@ The first exoplanet was discovered in only 1992 and as of 2023 there are only 5,
 
 # Demo Video
 
-<a href="https://drive.google.com/file/d/1DTb7xIacqo4IfKa3nQAUic8lP2gSiOiJ/view"> Watch Video </a>
+<a href="https://drive.google.com/file/d/1DTb7xIacqo4IfKa3nQAUic8lP2gSiOiJ"> Watch Video </a>
 
